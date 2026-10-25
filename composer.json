@@ -1,0 +1,28 @@
+{
+    "name": "truckleap/haul-cost",
+    "description": "Small PHP helpers for trucking cost math: cost per mile, deadhead share and fuel cost for a lane.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "trucking",
+        "freight",
+        "cost-per-mile",
+        "logistics",
+        "calculator"
+    ],
+    "homepage": "https://truckleap.com/cost-per-mile-calculator",
+    "authors": [
+        {
+            "name": "George Green",
+            "homepage": "https://truckleap.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "classmap": [
+            "HaulCost.php"
+        ]
+    }
+}
